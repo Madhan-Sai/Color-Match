@@ -110,7 +110,7 @@
         board.className = 'started'
       }
       tally++
-      moves.innerText = tally;
+      moves.innerText = tally
       //?
       checkColor(chip)
       checkWin(tally)
